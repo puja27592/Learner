@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+		body{
+			background: #999;
+		}
+           
+            input[type=text], input[type=password], input[type=number], input[type=email], input[type=date]
+            {
+                width: 100%;
+                padding: 6px 10px;
+                margin: 6px 0;
+                display: inline-block;
+               
+            }
+        </style>
+    </head>
+    <body >
+        <div id="regsec" align = "center"><h2>Registration Form</h2></div>
+        <div id="reg">
+            <form action="" method="post" align="center">    
+                <table border='0' width='480px' cellpadding='0' cellspacing='0' align='center'>
+                    <tr>
+                        <td align='left'>First Name:</td>
+                        <td><input type='text' name='name' placeholder="First name" required></td>
+                    </tr>
+                    <tr> <td>&nbsp;</td> </tr>
+                    <tr>
+                        <td align='left'>Last Name:</td>
+                        <td><input type='text' name='lname' placeholder="last name" required></td>
+                    </tr>
+                    <tr> <td>&nbsp;</td> </tr>
+                    <tr>
+                        <td align='left'>Date Of Birth:</td>
+                        <td><input type='date' name='dob' placeholder="dd/mm/yyyy" required></td>
+                    </tr>
+                    <tr> <td>&nbsp;</td> </tr>
+                
+                    <tr>
+					    <td align="left">Gender</td>
+                        <td align ="left"><input type="radio" name="group1" value="male">Male 
+						<input type="radio" name="group2" value="female" >Female</td>
+                    </tr>
+                    <tr> <td>&nbsp;</td> </tr>
+                    <tr>
+                        <td align='left'>Contact:</td>
+                        <td><input type='number' name='contact' placeholder="10 digits only" required></td>
+                    </tr>
+                    <tr> <td>&nbsp;</td> </tr>
+                    <tr>
+                        <td align='left'>E-mail:</td>
+                        <td><input type='email' name='name' placeholder="your email address" required></td>
+                    </tr>
+                    <tr> <td>&nbsp;</td> </tr>
+                    <tr>
+                        <td align='left'>Address:</td>
+                        <td><input type='text' name='adrs1' placeholder="address line one" required></td>
+                    </tr>
+                    <tr> <td>&nbsp;</td> </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><input type='text' name='adrs2' placeholder="address line two"></td>
+                    </tr>
+                    <tr> <td>&nbsp;</td> </tr>
+                    <tr>
+                        <td align='left'>Zip:</td>
+                        <td><input type='number' name='zip' placeholder="6 digit pincode" required></td>
+                    </tr>
+                    
+                   
+                </table>
+				<br/>
+                <tr ><input type='submit' name='register' value="REGISTER"></tr> 
+				<tr> <a href="home.html"><input type="button" name="back" value="Back to Home"></a></tr>
+            </form>
+        </div>
+
+    </body>
+</html>
+</html>

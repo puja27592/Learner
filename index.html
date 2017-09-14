@@ -1,0 +1,55 @@
+
+<!Doctype Html>
+<Html>
+<Head>
+<Title> Photography </Title>
+<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+</Head>
+<Body >
+		<div id="heading">
+			<h1>Shashi's Photography</h1>
+			
+		</div>
+
+		<div id="link">
+			<ol>
+			    <br>
+				<hr>
+				<a href="login.html"><li>Login</li><br></a>
+				<hr>
+				<a href="register.html"><li>Register</li><br></a>
+				<hr>
+				<a href="gallery.html"><li>Gallery</li><br></a>
+				<hr>
+				<a href="contact.html"><li>About Us</li><br></a>
+				<hr>
+				<a href="about.html"><li>Contact Us</li></a>
+				<hr>
+			</ol>
+		</div>
+		<div id="image">
+			<img class="mySlides" src="photos/2.jpg">
+			<img class="mySlides" src="photos/7.jpg">
+			<img class="mySlides" src="photos/5.jpg">
+			<img class="mySlides" src="photos/9.jpg">
+		</div>
+		<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+	
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); 
+}
+</script>
+
+	</Body>
+</Html>

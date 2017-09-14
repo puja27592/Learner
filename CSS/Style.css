@@ -1,0 +1,159 @@
+#heading h1{
+	color:white;
+	font-family:Comic Sans MS;
+	padding: 10px;
+	text-align: center;
+
+}
+
+#heading{
+	background-color: #34495e;
+	height: 60px;
+	width:100%;
+}
+
+#link{
+	background-color:black;
+	float:left;
+	width:20%;
+	height:550px;
+}
+
+
+#image{
+	
+	float:right;
+	width:80%;
+	
+}
+
+#link ol{
+	list-style:none;
+	margin-right:20px; 
+}
+
+#link ol a:link{
+	text-decoration:none;
+}
+
+#link ol li{
+	color: white;
+	padding:15px;
+	font-weight: bold;
+	background-color:#34495e;
+	text-align:center;
+	border-radius:8px;
+	transition-property: padding;
+    transition-duration: 0.5s;
+}
+
+#link ol li:hover{
+	background-color:green;
+	color:white;
+	padding:25px;
+}
+
+------------------------------------Login----------------------------------------
+
+#login h2{
+	color:white;
+	font-family:Comic Sans MS;
+	padding: 10px;
+	text-align: center;
+}
+
+#login2{
+	background-color:green;
+	height: 350px;
+	width:320px;
+	margin-left:520px;
+	margin-top:20px;
+	opacity:0.6;
+}
+
+
+#login2 table .field{
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+
+#login2 table{
+	padding:30px;
+}
+
+----------------------------------------Gallery--------------------------------------
+
+#pic{
+	height:100%;
+	width:900px;
+	margin:0 auto;
+}
+
+
+
+#img_1 img{
+	width:120px;
+	height:120px;
+	margin: 5px 5px 35px 5px;
+	border: 2px solid white;
+}
+
+#img_1 img:hover{
+	width:150px;
+	height:150px;
+	margin: 5px 5px 5px 5px;
+	border: 2px solid black;
+}
+
+#img_main {
+	width:100%;
+	height:500px;
+	border: 5px solid white;
+}
+#img_2 img{
+	width:120px;
+	height:120px;
+	margin: 0px 0px 10px 0px;
+}
+#img_2 img:hover{
+	width:150px;
+	height:120px;
+	
+	border: 5px solid #009999;
+}
+
+
+---------------------------------registration-------------------------------------
+
+#reg1{
+	padding:0.1px;
+	color:white;
+	background-color: #009999;
+	font-weight: bold;
+	text-align: center;	
+}
+
+
+#reg2{
+	background-color: #3498db;
+	height:620px;
+	width:550px;
+	margin-left:400px;
+	margin-top:40px;
+}
+
+
+#reg2 table{
+	padding:30px;
+}
+
+
+
+---------------------------slide-----------------------------
+.mySlides {
+display:none;
+width:60%;
+height:542px;
+} //automatic slideshow

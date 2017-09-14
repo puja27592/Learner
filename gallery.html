@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery</title>
+
+<style type="text/css">
+body {
+	background: #222;
+	color: #eee;
+	margin-top: 20px;
+	font-family:Helvetica;
+}
+a {
+	color: #FFF;
+}
+a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+.thumbnails img {
+	height: 80px;
+	border: 3px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+	border: 4px solid green;
+	cursor:pointer;
+}
+
+.preview img {
+	border: 4px solid #444;
+	padding: 1px;
+	width: 800px;
+}
+input[type=button]
+</style>
+</head>
+<body>
+
+<div class="gallery" align="center">
+	<h2> Photo Gallery </h2>
+
+	<br />
+
+	<div class="thumbnails">
+		<img onmouseover="preview.src=img1.src" name="img1" src="photos/1.jpg" alt=""/>
+		<img onmouseover="preview.src=img2.src" name="img2" src="photos/10.jpg" alt=""/>
+		<img onmouseover="preview.src=img3.src" name="img3" src="photos/11.jpg" alt=""/>
+		<img onmouseover="preview.src=img4.src" name="img4" src="photos/12.jpg" alt=""/>
+		<img onmouseover="preview.src=img5.src" name="img5" src="photos/16.jpg" alt=""/>
+		<img onmouseover="preview.src=img6.src" name="img6" src="photos/18.jpg" alt=""/>
+		
+	
+	</div><br/>
+
+	<div class="preview" align="center">
+		<img name="preview" src="photos/1.jpg" alt=""/>
+	</div>
+	
+</div>
+<br/>
+<div align="center">
+	<a href="home.html"><input type="button" name="back" value="Back to Home"></a>
+	
+</div>
+</body>
+</html>
